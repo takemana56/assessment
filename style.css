@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+}
+.headerInner,.mainInner{
+    max-width:650px;
+    margin:auto;
+    padding: 0 20px
+}
+.headerInner{
+    height:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}
+footer{
+    background: #eeeeee;
+}
+.footerInner{
+    text-align:center;
+    margin-top:50px;
+    padding:30px;
+}
+.keyvisual{
+    text-align:center;
+}
+.priceWrapper table,
+.priceWrapper th,
+.priceWrapper td{
+    border-collapse:collapse;
+    border: 1px solid black;
+}
+.priceWrapper th,
+.priceWrapper td{
+    padding:7px;
+}
+.priceWrapper table{
+    width:100%;
+}
+.priceWrapper th{
+    widows: 150px;
+    background: #eee;
+}
+.aboutWrapper img{
+    float:left;
+}
+.clearfix:after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.aboutWrapper img{
+    float: left;
+    margin-right: 10px;
+}
